@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的创业大赛 PPT 网页版</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation">
+        <div class="slide active" id="slide1">
+            <h1>标题幻灯片</h1>
+            <p>这里是你的第一张幻灯片内容。</p>
+            <!-- 替换为你的实际内容 -->
+        </div>
+        <div class="slide" id="slide2">
+            <h2>内容幻灯片</h2>
+            <p>这里是第二张幻灯片。</p>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                您的浏览器不支持视频标签。
+            </video>
+            <!-- 替换视频源为你的视频文件 -->
+        </div>
+        <div class="slide" id="slide3">
+            <h2>结尾幻灯片</h2>
+            <p>感谢观看！</p>
+        </div>
+    </div>
+    <div class="navigation">
+        <button id="prev">上一页</button>
+        <span id="current-slide">1</span> / <span id="total-slides">3</span>
+        <button id="next">下一页</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
